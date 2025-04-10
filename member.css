@@ -1,0 +1,33 @@
+
+.title{
+    height: 100px;
+    width: 100vw;
+    color: #FCF6BB;
+    background-color: #228B22;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    min-width: 600px;
+}
+#subTitle{
+    width: 100vw;
+    color: #FCF6BB;
+    background-color: #228B22;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#GolfClubLogo{
+    width: 100px; 
+    padding-left: 20px;
+    padding-top: 35px;
+}

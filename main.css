@@ -1,24 +1,20 @@
 .title{
-    width: 100vw;
     height: 100px;
     color: #FCF6BB;
-    background-color: #228B22;
+   
     padding: 0px;
     margin: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 50px;
-    min-width: 600px;
+    min-width: 600px; 
+   
 }
 #subTitle{
-    width: 100vw;
     color: #FCF6BB;
-    background-color: #228B22;
+  
     margin: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 15px;
 }
 body{
@@ -95,4 +91,32 @@ main{
 
 #pricesAndHours{
     margin:auto;
+}
+#membership{
+    position: absolute;
+    right: 2vw;
+    font-size: 3em;
+  
+  text-align: right;
+  
+  display:flex;
+  justify-content: space-between;
+
+}
+header{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #228B22;
+}
+#outerDiv{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+#innerDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
